@@ -1,58 +1,18 @@
 
-
-.subtitulo{
-    font-family: 'Tangerine', serif;
-        font-size: 48px;
-}
-
-footer p {
-
-    /* Alineación del texto a la derecha */
-    text-align: right;
-
-    /* Estilo de fuente itálica */
-    font-style: italic;
-
-}
-
-nav > ul {
-
-    /* Eliminar los estilos de lista predeterminados */
-    list-style: none;
-
-}
-
-/*
-section {
-
-    border: 0.2pt solid #cedddd;
-
-   
-    margin: 4px 2px 8px 2px;
-
-   
-
-    padding: 1.5% 0.8%;
-
-
-    margin-bottom: 1.2rem;
-
-   
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-
- 
-   -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-   -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-   box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-
-}
-*/
-
-
 #cuerpo{
-    background-color:#f1c67a;
+   margin:0;
+}
+
+#fondo{
+    width: 100%;
+    height: 100%;
+}
+
+#id{
+    width: 1500px;
+    height:1000px;
+    display:flex;
+    justify-content: center;
 }
 #menu ul{
    
