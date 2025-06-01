@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html id="html" lang="es">
     
     <head>
         <title> Mi pagina web</title>
@@ -11,9 +11,7 @@
     </head>
 
     <body id="cuerpo">
-      
-        <img id="fondo" src="./fondo5.jpg">
-        
+ 
         <nav id="menu">
             <ul>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -24,57 +22,85 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <header id="header">
-            <p id="nombre"> Daniel Zavala</p>
-            <img id="foto-autor" src="./yo.jpg" alt="Foto de Daniel Zavala" width="320" height="300"> 
-            <p> Desarrollo web</p>
-            <p> Hacking etico</p>
-            <p> Estructura de datos</p>
-            <p> POO </p>
-        </header>
-        <section id="banner">
-   
-            <img id="logo-linux1"src="./linux_gif1.gif" alt="Logo de Linux1">
-            <img id="logo-linux2"src="./linux_gif2.gif" alt="Logo de Linux2">
-            <img id="logo-linux3"src="./linux_gif3.gif" alt="Logo de Linux3">
-        </section>    
+                
+                
+            <header id="header">
+                <p id="autor-nombre">Daniel Zavala</p>
+                <img id="autor-foto" src="./yo.jpg" alt="Foto de Daniel Zavala" width="320" height="300">
+                <p> Desarrollo web</p>
+                <p> Hacking etico</p>
+            </header>
+            
+
         <main>
-            <section>
-                <h2 class="subtitulo">Sobre mí</h2>
-                <p>Hola, soy Daniel Zavala, estudiante de la Escuela Superior Politécnica del Litoral (ESPOL) en Ecuador. Me apasiona la programación y la tecnología.</p>
-                <p>En mi tiempo libre, disfruto de la lectura y el aprendizaje de nuevas habilidades. Estoy emocionado por compartir mis proyectos y experiencias en este sitio web.</p>
-            </section>
+            <div id="contenido1">   
+                <section id="sobre-mi">
+                    <h2 >Sobre mí</h2>
+                    <p>Soy un apasionado de la programación que se encuentra a la mitad de sus estudios univesitarios, dedicado al desarrollo de paginas webs. En el transcurso de mi carrera he adquirido un amplio conjunto de habilidades en diversas áreas de la programación y me enfoco en el desarrollo web y hacking etico, utilizando lenguajes como informaticos como Python, Html y Java. Me entusiasma explorar y aprender nuevas tecnologías, enfrentar desafíos que me permitan crecer profesionalmente. Estoy comprometido con contribuir en proyectos que marquen la diferencia y deseo colaborar en un entorno dinámico donde pueda aplicar y expandir mis conocimientos. Mi objetivo es formar parte de un equipo creativo y talentoso que impulse la innovación y el progreso.</p>
+                </section>
 
-            <section>
-                <h2 class="subtitulo" >Perfil</h2>
-                <img src="https://preview.redd.it/qm3p4sotkjgd1.jpeg?auto=webp&s=d7f8c94f16546eaebfdc292355adf7785b587da5" alt="Foto de Daniel Zavala" width="200" height="200">      
-            
-            </section>
+                <section id="formacion">
+                    <h2>Formacion academica</h2>
+                    <h3>Escuela Superior Politecnica del Litoral (ESPOL). </h3>
+                    <p><b>Carrera:</b> Ingenieria en Ciencias de la Computacion</p>
+                    <p><b>Fecha de ingreso:</b> 2021</p>
+                    <p><b>Lenguajes de programación:</b> Python, Java, C; 
+                    <p><b>Tecnologías web:</b> HTML, CSS.</p>
+                    <p><b>Enfoque de Carrera:</b> Interesado en el desarrollo de software y cyberseguridad, con el objetivo de contribuir a soluciones innovadoras.</p>
 
-            <section>
-                <h2 class="subtitulo">Formacion academica</h2>
-                <p>Hola, soy Daniel Zavala, estudiante de la Escuela Superior Politécnica del Litoral (ESPOL) en Ecuador. Me apasiona la programación y la tecnología.</p>
-                <p>En mi tiempo libre, disfruto de la lectura y el aprendizaje de nuevas habilidades. Estoy emocionado por compartir mis proyectos y experiencias en este sitio web.</p>
-            </section>
-            
-            <section>
-                <h2 class="subtitulo">Experiencia Laboral</h2>
-                <p>Hola, soy Daniel Zavala, estudiante de la Escuela Superior Politécnica del Litoral (ESPOL) en Ecuador. Me apasiona la programación y la tecnología.</p>
-                <p>En mi tiempo libre, disfruto de la lectura y el aprendizaje de nuevas habilidades. Estoy emocionado por compartir mis proyectos y experiencias en este sitio web.</p>
-            </section>
-            <section>
-                <h2 class="subtitulo">Habilidades</h2>
-                <p>Hola, soy Daniel Zavala, estudiante de la Escuela Superior Politécnica del Litoral (ESPOL) en Ecuador. Me apasiona la programación y la tecnología.</p>
-                <p>En mi tiempo libre, disfruto de la lectura y el aprendizaje de nuevas habilidades. Estoy emocionado por compartir mis proyectos y experiencias en este sitio web.</p>
-            </section>
 
-            <section>
-                <h2 class="subtitulo">Idiomas</h2>
-                <p>Hola, soy Daniel Zavala, estudiante de la Escuela Superior Politécnica del Litoral (ESPOL) en Ecuador. Me apasiona la programación y la tecnología.</p>
-                <p>En mi tiempo libre, disfruto de la lectura y el aprendizaje de nuevas habilidades. Estoy emocionado por compartir mis proyectos y experiencias en este sitio web.</p>
-            </section>
+                </section>
+            </div>
+            <div id="contenido2">   
+                <section id="experiencia">
+                    <h2 >Experiencia Laboral</h2>
+                    <p><b>Web Scrapping:</b> Teletrabajo con sede en Alemania. El proyecto se trataba de crear una pagina web de plugins de wordpress, solo la informacion y el link oficial para su descarga. Se manejo un proceso ETL el que estaba encargado de la extraccion de datos. Entonces cree varios spiders para diferentes paginas web. Basicamente extraian de manera automatizada la informacion utilizando el asincronismo para generar multiples solicitudes al mismo tiempo, maximixando la recoleccion y minorizando el tiempo</p>            
+                </section>
+                <section id="habilidades">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Figma</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Java</li>
+                    </ul>
+                </section>
+            </div>
+            <div id="contenido3">
+                <section id="idiomas">
+                    <h2>Idiomas</h2>
+                    <p><b>Ingles:</b> He realizado el programa Work and travel dos veces con destino a Estados Unidos. He ido a Florida y Carolina del Norte aprendiendo los diferentes acentos y distintos vocabularios debido a que he trabajado como cajero, dishwasher, busser y coocker</p>
+                    <p><b>Español:</b> Nativo, he vivido toda mi vida en Ecuador</p>
+                </section>
+            </div>
+            <div id="contenido4">   
+                <h2 id="proyectos-title">Proyectos</h2>
+                <div id="proyectos">
+                    <section id="proyecto1">      
+                        <p><b>Proyecto POO heladeria con javafx:</b>Descripción: Proyecto realizado en el curso de Programación Orientada a Objetos, impartido por la profesora Verónica Duarte. El objetivo fue crear una aplicación que permita al usuario hacer un pedido de helado utilizando JavaFX, donde se puede elegir la base, los sabores y los toppings. La idea es seccionar las diferentes partes del proyecto en clases y aplicar herencia, utilizar interfaces y manejar excepciones. </p>
+                        <p>Tecnologías utilizadas: Java, JavaFX, CSS.</p>
+                        <p><a href="https://github.com/NLindao2004/POO4_PROY2P_Lindao_Salinas_Zavala" target="_blank"> Repositorio</a></p>
+                    </section>
 
-            
+                    <section id="proyecto2">
+                        <p><b>Tres en raya, utilizando arboles y estructuras lineales</b>Descripción: Descripción: Proyecto realizado en el curso de Estructura de Datos, impartido por la profesora Adriana Collaguazo. El objetivo fue crear el juego Tres en Raya utilizando árboles multicaminos y estructuras lineales. El juego permite jugar contra la computadora o contra otro jugador. Se utilizó el algoritmo Minimax para que la computadora pueda jugar de manera óptima. El proyecto fue desarrollado en Java y se utilizó la librería JavaFX para la interfaz gráfica.
+
+                        </p>
+                        <p>Tecnologías utilizadas: Java, JavaFX.</p>
+                        <p><a href="https://github.com/paulettemal/TresEnRaya" target="_blank">Repositorio</a></p>
+                    </section>
+                    <section id="proyecto3">
+                        <p><b>Houzz social network Scraper:</b> Descripción: Proyecto realizado con la finalidad de ingresar al club Kokoa. El objetivo fue crear un scraper que permita obtener los datos de los usuarios de la red social Houzz, específicamente de la sección de interior designers. El proyecto fue desarrollado en Python y se utilizó la librería Scrapy para el proceso de scraping. También se empleó la librería Pandas para el manejo de los datos, los cuales fueron almacenados en un archivo CSV.</p>
+                        <p>Tecnologías utilizadas: Python, Scrapy, Pandas.</p>
+                        <p><a href="https://github.com/fzavala2003/houzz-scraper_Social" target="_blank">Repositorio</a></p>
+                    </section>
+                </div>
+            </div>
+
+
+
             <section>
                 <h2 class="subtitulo"> Contacto</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.12132298742!2d-79.98516876523438!3d-2.1478802000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1747680265840!5m2!1ses!2sec" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

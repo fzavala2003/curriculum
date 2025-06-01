@@ -1,14 +1,13 @@
 
 #cuerpo{
-   margin:0%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('./linux_costado.jpg');
+    background-size: 100% 800px;
+    background-repeat:no-repeat;
+    margin: 0px;
+
 }
 
-#fondo{
-    width: 100%;
-    height: 1000px;
-    position: absolute;
-    z-index: -1;
-}
 
 
 #menu ul{
@@ -29,7 +28,7 @@
 #menu a {
     font-family: "Sankofa Display", sans-serif;
     letter-spacing: 2px;
-    color: #155994; /* Cambia 'white' por cualquier color que quieras */
+    color: white; /* Cambia 'white' por cualquier color que quieras */
     text-decoration: none;
     font-weight: bold;
 }
@@ -38,50 +37,113 @@
     padding:2px;
     border-width:2px;
     border-style:solid;
-    border-color:#155994;
+    border-color:white;
 }
-
+#portada{
+    position:relative;
+}
 #header{
-    margin-top: 65px;
+    margin-top: 60px;
     color: white;
-    text-align: center;
+    display:flex;
+    padding-right: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Share Tech", sans-serif;
+    margin-bottom:179px;
 }
-
 #header p{
-    margin-bottom: 25px;
     font-size: 30px;
     font-weight: bold;
 }
 
-#header img{
-    border-radius: 300px;
+header img{
+    border-radius: 100%;
 }
 
-
-#logo-linux1{
-    width: 130px;
-    height: 100px;
-    border-radius:700px;
-
-}
-#logo-linux2{
-    width: 130px;
-    height: 100px;
-    border-radius:700px;
-
-}
-#logo-linux3{
-    width: 130px;
-    height: 100px;
-    border-radius:700px;
-
- 
-
-}
-
-#banner{
+#contenido1{
     display:flex;
-    justify-content: flex-end;
-    overflow-x: auto;      /* Habilita scroll horizontal si el contenido se pasa */
+    justify-content: spacde-between;
+    gap:15%;
+    margin-bottom: 5%;
 }
+#sobre-mi{
+    background-color: rgba(72, 207, 234, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    width:50%;
+    text-align: justify;
+}
+#formacion{
+    background-color: rgba(239, 221, 87, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    text-align: justify;
+}
+#contenido2{
+    display: flex;
+    gap: 20%;
+}
+
+#experiencia{
+    width: 52%;
+    background-color: rgba(11, 206, 99, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    text-align: justify;
+}
+
+#habilidades{
+    width: 20%;
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    text-align: center;
+}
+#habilidades ul li{
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+#contenido3{
+    text-align: justify;
+    display: flex;
+    background-color: bisque;
+    padding:5%;
+    justify-content: center;
+    align-items: center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
+}
+#contenido4{
+    margin-top:5%;
+   background-color: transparent;
+
+}
+#proyectos{
+    display:flex;
+    justify-content: space-between;
+    
+}
+#proyectos section{
+    text-align: justify;;
+    width: 30%;
+    padding:2%;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+#proyecto1{
+    background-color: rgba(216, 20, 173, 0.8); /* Fondo blanco con opacidad */
+}
+#proyecto2{
+    background-color: rgba(14, 178, 162, 0.8); /* Fondo blanco con opacidad */
+}
+#proyecto3{
+    background-color: rgba(81, 97, 218, 0.8); /* Fondo blanco con opacidad */
+}
+#proyectos-title{
+    margin-bottom:5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
