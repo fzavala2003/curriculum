@@ -19,7 +19,9 @@
     justify-content: flex-end;
     list-style: none;
     
-    gap: 20px; /* Espacio entre los elementos del menú */ 
+    gap: 20px; /* Espacio entre los elementos del menú */
+    overflow-x: auto;      /* Habilita scroll horizontal si el contenido se pasa */
+    white-space: nowrap; 
 
 }
 
