@@ -183,6 +183,45 @@ header img{
 #gif-container2{
     margin-right:5%;
 }
+#formulario-contacto h2{
+    color:#ffffff
+}
+#contenido5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    gap:5%;
+    font-family: "Inconsolata", monospace;
+}
+#contenido5 form{
+    background-color: #23527d;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.controls{
+    font-family: "Inconsolata", monospace;
+    height: 30px;
+    border-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+#contacto-title{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inconsolata", monospace;
+}
+#submit{
+    background-color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Inconsolata", monospace;
+}
+
+
+
 
 
 
