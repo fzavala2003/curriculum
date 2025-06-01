@@ -196,6 +196,7 @@ header img{
 }
 #contenido5 form{
     background-color: #23527d;
+    width: 20%;
     padding:2%;
     display: flex;
     flex-direction: column;
@@ -214,10 +215,26 @@ header img{
     font-family: "Inconsolata", monospace;
 }
 #submit{
+    height: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
     background-color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     font-family: "Inconsolata", monospace;
+}
+#footer{
+    padding:10px;
+    background-color: #bdc9d3;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    height:100px;
+}
+
+#iconos-redes{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
 }
 
 
