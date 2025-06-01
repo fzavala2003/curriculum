@@ -1,0 +1,246 @@
+
+#cuerpo{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('../linux_costado.jpg');
+    background-size: 100% 850px;
+    background-repeat:no-repeat;
+    margin: 0px;
+
+}
+
+
+
+#menu ul{
+   
+
+    margin: 20px;
+    display:flex;
+    
+    justify-content: flex-end;
+    list-style: none;
+    
+    gap: 20px; /* Espacio entre los elementos del menú */
+    overflow-x: auto;      /* Habilita scroll horizontal si el contenido se pasa */
+    white-space: nowrap; 
+
+}
+
+#menu a {
+    font-family: "Sankofa Display", sans-serif;
+    letter-spacing: 2px;
+    color: white; /* Cambia 'white' por cualquier color que quieras */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu li {
+    padding:2px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+}
+#portada{
+    position:relative;
+}
+#header{
+    margin-top: 35px;
+    color: white;
+    display:flex;
+    padding-right: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:175px;
+    font-family: "Inconsolata", monospace;
+}
+#autor-nombre{
+    font-size: 50px;
+    font-weight: bold;
+}
+#desarrollo-tag{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#hacking-tag{
+    font-size: 30px;
+    font-weight: bold;
+}
+header img{
+    border-radius: 100%;
+}
+
+#contenido1{
+    display:flex;
+    justify-content: spacde-between;
+    align-items: center;
+    gap:1%;
+    margin-bottom: 5%;
+}
+#sobre-mi{
+    background-color: rgba(72, 207, 234, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    width:50%;
+    text-align: justify;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+}
+#formacion{
+    background-color: rgba(239, 221, 87, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    text-align: justify;
+    font-family: "Inconsolata", monospace;
+    font-size:20px;
+}
+#contenido2{
+    display: flex;
+    gap: 1%;
+}
+
+#experiencia{
+    width: 52%;
+    background-color: rgba(11, 206, 99, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    text-align: justify;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+}
+
+#habilidades{
+    width: 30%;
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo blanco con opacidad */
+    padding:3%;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+}
+#habilidades ul li{
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+#contenido3-padre{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    margin-top: 5%;
+}
+#contenido3{
+    display: flex;
+    background-color: bisque;
+    padding:5%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+    font-size:20px;
+}
+#contenido4{
+    margin-top:5%;
+   background-color: transparent;
+
+}
+#proyectos{
+    display:flex;
+    justify-content: space-between;
+    
+}
+#proyectos section{
+    text-align: justify;;
+    width: 30%;
+    padding:2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+}
+#proyecto1{
+    background-color: rgba(216, 20, 173, 0.8); /* Fondo blanco con opacidad */
+}
+#proyecto2{
+    background-color: rgba(14, 178, 162, 0.8); /* Fondo blanco con opacidad */
+}
+#proyecto3{
+    background-color: rgba(81, 97, 218, 0.8); /* Fondo blanco con opacidad */
+}
+#proyectos-title{
+    margin-bottom:5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inconsolata", monospace;
+
+}
+
+#gif1{
+    border-radius:100%;
+}
+#gif2{
+    border-radius:100%;
+}
+#gif-container1{
+    margin-left:5%;
+}
+#gif-container2{
+    margin-right:5%;
+}
+#formulario-contacto h2{
+    color:#ffffff
+}
+#contenido5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    gap:5%;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 8%;
+}
+#contenido5 form{
+    background-color: #23527d;
+    width: 20%;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.controls{
+    font-family: "Inconsolata", monospace;
+    height: 30px;
+    border-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+#contacto-title{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inconsolata", monospace;
+}
+#submit{
+    height: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Inconsolata", monospace;
+}
+#footer{
+    padding:10px;
+    background-color: #e8e8e8;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    height:100px;
+}
+
+#iconos-redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+
+
+
+
+
